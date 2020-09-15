@@ -8,7 +8,7 @@ class Solution:
         
         ans = 0
         place = 1
-        while x >= place:
+        while x > place:
             ans *= 10
             ans += int(int(x % (place * 10)) / place)
             place *= 10
